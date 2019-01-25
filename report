@@ -1,0 +1,64 @@
+
+User information
+uid=1000(sarthak) gid=1000(sarthak) groups=1000(sarthak),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpadmin),126(sambashare)
+
+OS type
+GNU/Linux
+
+OS version
+4.15.0-43-generic
+
+Kernel build
+#46-Ubuntu SMP Thu Dec 6 14:45:28 UTC 2018
+
+System architecture info
+x86_64
+
+System memory information
+MemTotal:       10237620 kB
+MemFree:         8012088 kB
+MemAvailable:    8554268 kB
+Buffers:           76728 kB
+Cached:           707308 kB
+SwapCached:            0 kB
+Active:          1620928 kB
+Inactive:         392260 kB
+Active(anon):    1229996 kB
+Inactive(anon):    35468 kB
+Active(file):     390932 kB
+Inactive(file):   356792 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:       2097148 kB
+SwapFree:        2097148 kB
+Dirty:               140 kB
+Writeback:             0 kB
+AnonPages:       1229292 kB
+Mapped:           265020 kB
+Shmem:             36316 kB
+Slab:              80056 kB
+SReclaimable:      43832 kB
+SUnreclaim:        36224 kB
+KernelStack:        9888 kB
+PageTables:        43576 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     7215956 kB
+Committed_AS:    5469292 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      136128 kB
+DirectMap2M:    10356736 kB

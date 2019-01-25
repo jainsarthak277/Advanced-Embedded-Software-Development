@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "
+User information" >> report
+id >> report
+echo "
+OS type" >> report
+uname -o >> report
+echo "
+OS version" >> report
+uname -r >> report
+echo "
+Kernel build" >> report
+uname -v >> report
+echo "
+System architecture info" >> report
+uname -m >> report
+echo "
+System memory information" >> report
+cat /proc/meminfo  >> report
+
+
+
