@@ -1,0 +1,67 @@
+
+Queue Messaging Process 2
+Process ID 305
+Using messaging queues with file descriptor queue_fd
+[Timestamp 1551438110 secs, 386 msecs, 386611551 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551438110 secs, 487 msecs, 487904126 nsecs] Sending: <Shape of you>
+[Timestamp 1551438110 secs, 588 msecs, 588930969 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551438110 secs, 689 msecs, 689825445 nsecs] Sending: <Something Just Like this>
+[Timestamp 1551438110 secs, 790 msecs, 790818291 nsecs] Sending: <It Ain't Me>
+[Timestamp 1551438110 secs, 891 msecs, 891690727 nsecs] Sending: <We Don't talk anymore>
+[Timestamp 1551438110 secs, 992 msecs, 992584454 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551438111 secs, 93 msecs, 93443559 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551438111 secs, 194 msecs, 194341578 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551438111 secs, 295 msecs, 295204849 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551438111 secs, 396 msecs, 396851235 nsecs] Received: <TURN LED ON>
+Main process received: 30 bytes: TURN LED ON
+[Timestamp 1551438111 secs, 397 msecs, 397714802 nsecs] Received: <Shape of you>
+Main process received: 30 bytes: Shape of you
+[Timestamp 1551438111 secs, 496 msecs, 496397470 nsecs] Received: <TURN LED OFF>
+Main process received: 30 bytes: TURN LED OFF
+[Timestamp 1551438111 secs, 596 msecs, 596607701 nsecs] Received: <Something Just Like this>
+Main process received: 30 bytes: Something Just Like this
+[Timestamp 1551438111 secs, 696 msecs, 696808309 nsecs] Received: <It Ain't Me>
+Main process received: 30 bytes: It Ain't Me
+[Timestamp 1551438111 secs, 797 msecs, 797017291 nsecs] Received: <We Don't talk anymore>
+Main process received: 30 bytes: We Don't talk anymore
+[Timestamp 1551438111 secs, 897 msecs, 897222106 nsecs] Received: <TURN LED OFF>
+Main process received: 30 bytes: TURN LED OFF
+[Timestamp 1551438111 secs, 997 msecs, 997558496 nsecs] Received: <TURN LED OFF>
+Main process received: 30 bytes: TURN LED OFF
+[Timestamp 1551438112 secs, 97 msecs, 97750813 nsecs] Received: <TURN LED ON>
+Main process received: 30 bytes: TURN LED ON
+[Timestamp 1551438112 secs, 197 msecs, 197957546 nsecs] Received: <TURN LED OFF>
+Main process received: 30 bytes: TURN LED OFF
+Queue Messaging Process 1
+Process ID 304
+Using messaging queues with file descriptor queue_fd
+[Timestamp 1551438110 secs, 386 msecs, 386788914 nsecs] Received: <TURN LED ON>
+Main process received: 30 bytes: TURN LED ON
+[Timestamp 1551438110 secs, 488 msecs, 488028992 nsecs] Received: <Shape of you>
+Main process received: 30 bytes: Shape of you
+[Timestamp 1551438110 secs, 589 msecs, 589036212 nsecs] Received: <TURN LED OFF>
+Main process received: 30 bytes: TURN LED OFF
+[Timestamp 1551438110 secs, 689 msecs, 689933355 nsecs] Received: <Something Just Like this>
+Main process received: 30 bytes: Something Just Like this
+[Timestamp 1551438110 secs, 790 msecs, 790919534 nsecs] Received: <It Ain't Me>
+Main process received: 30 bytes: It Ain't Me
+[Timestamp 1551438110 secs, 891 msecs, 891789221 nsecs] Received: <We Don't talk anymore>
+Main process received: 30 bytes: We Don't talk anymore
+[Timestamp 1551438110 secs, 992 msecs, 992682156 nsecs] Received: <TURN LED OFF>
+Main process received: 30 bytes: TURN LED OFF
+[Timestamp 1551438111 secs, 93 msecs, 93553552 nsecs] Received: <TURN LED OFF>
+Main process received: 30 bytes: TURN LED OFF
+[Timestamp 1551438111 secs, 194 msecs, 194446238 nsecs] Received: <TURN LED ON>
+Main process received: 30 bytes: TURN LED ON
+[Timestamp 1551438111 secs, 295 msecs, 295305509 nsecs] Received: <TURN LED OFF>
+Main process received: 30 bytes: TURN LED OFF
+[Timestamp 1551438111 secs, 295 msecs, 295424710 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551438111 secs, 396 msecs, 396071579 nsecs] Sending: <Shape of you>
+[Timestamp 1551438111 secs, 496 msecs, 496278436 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551438111 secs, 596 msecs, 596488751 nsecs] Sending: <Something Just Like this>
+[Timestamp 1551438111 secs, 696 msecs, 696695775 nsecs] Sending: <It Ain't Me>
+[Timestamp 1551438111 secs, 796 msecs, 796900174 nsecs] Sending: <We Don't talk anymore>
+[Timestamp 1551438111 secs, 897 msecs, 897109614 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551438111 secs, 997 msecs, 997409506 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551438112 secs, 97 msecs, 97634404 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551438112 secs, 197 msecs, 197838887 nsecs] Sending: <TURN LED OFF>
