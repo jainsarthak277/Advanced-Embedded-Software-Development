@@ -1,0 +1,67 @@
+
+Main process
+Process ID 218
+
+[Timestamp 1551432388 secs, 603 msecs, 603196855 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551432388 secs, 703 msecs, 703406682 nsecs] Sending: <Shape of you>
+[Timestamp 1551432388 secs, 803 msecs, 803659175 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551432388 secs, 903 msecs, 903863335 nsecs] Sending: <Something Just Like this>
+[Timestamp 1551432389 secs, 4 msecs, 4058495 nsecs] Sending: <It Ain't Me>
+[Timestamp 1551432389 secs, 104 msecs, 104266027 nsecs] Sending: <We Don't talk anymore>
+[Timestamp 1551432389 secs, 204 msecs, 204469100 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551432389 secs, 304 msecs, 304654257 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551432389 secs, 404 msecs, 404838705 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551432389 secs, 505 msecs, 505039154 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551432389 secs, 605 msecs, 605258685 nsecs] Received: <TURN LED ON>
+Main process received: 12 bytes: TURN LED ON
+[Timestamp 1551432389 secs, 605 msecs, 605458645 nsecs] Received: <We Don't tal>
+Main process received: 12 bytes: We Don't tal
+[Timestamp 1551432389 secs, 705 msecs, 705751094 nsecs] Received: <It Ain't Me>
+Main process received: 12 bytes: It Ain't Me
+[Timestamp 1551432389 secs, 806 msecs, 806033377 nsecs] Received: <Something Ju>
+Main process received: 12 bytes: Something Ju
+[Timestamp 1551432389 secs, 906 msecs, 906307451 nsecs] Received: <TURN LED ON>
+Main process received: 12 bytes: TURN LED ON
+[Timestamp 1551432390 secs, 6 msecs, 6748651 nsecs] Received: <TURN LED ON>
+Main process received: 12 bytes: TURN LED ON
+[Timestamp 1551432390 secs, 107 msecs, 107064223 nsecs] Received: <TURN LED ON>
+Main process received: 12 bytes: TURN LED ON
+[Timestamp 1551432390 secs, 207 msecs, 207356669 nsecs] Received: <Gone gone go>
+Main process received: 12 bytes: Gone gone go
+[Timestamp 1551432390 secs, 307 msecs, 307684949 nsecs] Received: <It Ain't Me>
+Main process received: 12 bytes: It Ain't Me
+[Timestamp 1551432390 secs, 407 msecs, 407978103 nsecs] Received: <TURN LED ON>
+Main process received: 12 bytes: TURN LED ON
+
+Child process
+Process ID 219
+[Timestamp 1551432388 secs, 604 msecs, 604553324 nsecs] Received: <TURN LED ON>
+Child process received: 12 bytes: TURN LED ON
+[Timestamp 1551432388 secs, 703 msecs, 703572100 nsecs] Received: <Shape of you>
+Child process received: 12 bytes: Shape of you
+[Timestamp 1551432388 secs, 803 msecs, 803790385 nsecs] Received: <TURN LED OFF>
+Child process received: 12 bytes: TURN LED OFF
+[Timestamp 1551432388 secs, 903 msecs, 903984128 nsecs] Received: <Something Ju>
+Child process received: 12 bytes: Something Ju
+[Timestamp 1551432389 secs, 4 msecs, 4191996 nsecs] Received: <It Ain't Me>
+Child process received: 12 bytes: It Ain't Me
+[Timestamp 1551432389 secs, 104 msecs, 104402528 nsecs] Received: <We Don't tal>
+Child process received: 12 bytes: We Don't tal
+[Timestamp 1551432389 secs, 204 msecs, 204583768 nsecs] Received: <TURN LED OFF>
+Child process received: 12 bytes: TURN LED OFF
+[Timestamp 1551432389 secs, 304 msecs, 304768258 nsecs] Received: <TURN LED OFF>
+Child process received: 12 bytes: TURN LED OFF
+[Timestamp 1551432389 secs, 404 msecs, 404969206 nsecs] Received: <TURN LED ON>
+Child process received: 12 bytes: TURN LED ON
+[Timestamp 1551432389 secs, 505 msecs, 505158613 nsecs] Received: <TURN LED OFF>
+Child process received: 12 bytes: TURN LED OFF
+[Timestamp 1551432389 secs, 505 msecs, 505203280 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551432389 secs, 605 msecs, 605377895 nsecs] Sending: <We Don't talk anymore>
+[Timestamp 1551432389 secs, 705 msecs, 705649469 nsecs] Sending: <It Ain't Me>
+[Timestamp 1551432389 secs, 805 msecs, 805931459 nsecs] Sending: <Something Just Like this>
+[Timestamp 1551432389 secs, 906 msecs, 906203491 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551432390 secs, 6 msecs, 6490816 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551432390 secs, 106 msecs, 106953598 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551432390 secs, 207 msecs, 207252335 nsecs] Sending: <Gone gone gone>
+[Timestamp 1551432390 secs, 307 msecs, 307555990 nsecs] Sending: <It Ain't Me>
+[Timestamp 1551432390 secs, 407 msecs, 407856769 nsecs] Sending: <TURN LED ON>
