@@ -1,0 +1,47 @@
+
+Server Process
+Server Process ID 197
+Using sockets with file descriptor server_fd
+[Timestamp 1551432084 secs, 322 msecs, 322577135 nsecs] Received: <TURN LED ON>
+[Timestamp 1551432084 secs, 334 msecs, 334639779 nsecs] Received: <Castle on th>
+[Timestamp 1551432084 secs, 345 msecs, 345924320 nsecs] Received: <TURN LED ON>
+[Timestamp 1551432084 secs, 357 msecs, 357063065 nsecs] Received: <Castle on th>
+[Timestamp 1551432084 secs, 368 msecs, 368209560 nsecs] Received: <Shape of you>
+[Timestamp 1551432084 secs, 379 msecs, 379358889 nsecs] Received: <TURN LED ON>
+[Timestamp 1551432084 secs, 390 msecs, 390458549 nsecs] Received: <TURN LED OFF>
+[Timestamp 1551432084 secs, 401 msecs, 401766632 nsecs] Received: <Something Ju>
+[Timestamp 1551432084 secs, 412 msecs, 412914752 nsecs] Received: <TURN LED ON>
+[Timestamp 1551432084 secs, 424 msecs, 424050331 nsecs] Received: <TURN LED OFF>
+[Timestamp 1551432084 secs, 424 msecs, 424646221 nsecs] Sending: <We Don't talk anymore>
+[Timestamp 1551432084 secs, 434 msecs, 434987945 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551432084 secs, 445 msecs, 445445715 nsecs] Sending: <Something Just Like this>
+[Timestamp 1551432084 secs, 455 msecs, 455924526 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551432084 secs, 466 msecs, 466406212 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551432084 secs, 476 msecs, 476858940 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551432084 secs, 487 msecs, 487290333 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551432084 secs, 497 msecs, 497734310 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551432084 secs, 508 msecs, 508186746 nsecs] Sending: <Girls Like You>
+[Timestamp 1551432084 secs, 518 msecs, 518617306 nsecs] Sending: <TURN LED ON>
+Client Process
+Client Process ID 198
+Using sockets with file descriptor client_fd
+[Timestamp 1551432084 secs, 321 msecs, 321939286 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551432084 secs, 333 msecs, 333981596 nsecs] Sending: <Castle on the hill>
+[Timestamp 1551432084 secs, 345 msecs, 345556893 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551432084 secs, 356 msecs, 356724306 nsecs] Sending: <Castle on the hill>
+[Timestamp 1551432084 secs, 367 msecs, 367878510 nsecs] Sending: <Shape of you>
+[Timestamp 1551432084 secs, 379 msecs, 379019880 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551432084 secs, 390 msecs, 390132749 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551432084 secs, 401 msecs, 401423498 nsecs] Sending: <Something Just Like this>
+[Timestamp 1551432084 secs, 412 msecs, 412575827 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551432084 secs, 423 msecs, 423731322 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551432084 secs, 435 msecs, 435335913 nsecs] Received: <We Don't talTURN LED ON>
+[Timestamp 1551432084 secs, 445 msecs, 445806641 nsecs] Received: <Something Ju>
+[Timestamp 1551432084 secs, 456 msecs, 456294577 nsecs] Received: <TURN LED OFF>
+[Timestamp 1551432084 secs, 466 msecs, 466754263 nsecs] Received: <TURN LED ON>
+[Timestamp 1551432084 secs, 477 msecs, 477227741 nsecs] Received: <TURN LED OFF>
+[Timestamp 1551432084 secs, 487 msecs, 487655218 nsecs] Received: <TURN LED ON>
+[Timestamp 1551432084 secs, 498 msecs, 498127946 nsecs] Received: <TURN LED OFF>
+[Timestamp 1551432084 secs, 508 msecs, 508545755 nsecs] Received: <Girls Like Y>
+[Timestamp 1551432084 secs, 519 msecs, 519013817 nsecs] Received: <TURN LED ON>
+[Timestamp 1551432084 secs, 532 msecs, 532538748 nsecs] Received: <>
