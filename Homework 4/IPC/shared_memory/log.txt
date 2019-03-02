@@ -1,0 +1,67 @@
+
+Producer Process
+Process ID 6099
+Using shared memory with file descriptor shm_fd
+[Timestamp 1551502699 secs, 877 msecs, 877082380 nsecs] Sending: <Wolves>
+[Timestamp 1551502699 secs, 892 msecs, 892574451 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551502699 secs, 903 msecs, 903226797 nsecs] Sending: <Gone gone gone>
+[Timestamp 1551502699 secs, 913 msecs, 913341480 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551502699 secs, 923 msecs, 923535417 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551502699 secs, 933 msecs, 933927577 nsecs] Sending: <Hall of Fame>
+[Timestamp 1551502699 secs, 944 msecs, 944765522 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551502699 secs, 955 msecs, 955867383 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551502699 secs, 966 msecs, 966171826 nsecs] Sending: <It Ain't Me>
+[Timestamp 1551502699 secs, 976 msecs, 976824219 nsecs] Sending: <It Ain't Me>
+Consumer Process
+Process ID 6100
+Using shared memory with file descriptor shm_fd
+[Timestamp 1551502702 secs, 601 msecs, 601378465 nsecs] Received: <Wolves>
+Consumer process received: 6 bytes: Wolves
+[Timestamp 1551502702 secs, 601 msecs, 601381165 nsecs] Received: <TURN LED ON>
+Consumer process received: 11 bytes: TURN LED ON
+[Timestamp 1551502702 secs, 601 msecs, 601383325 nsecs] Received: <Gone gone gone>
+Consumer process received: 14 bytes: Gone gone gone
+[Timestamp 1551502702 secs, 601 msecs, 601385381 nsecs] Received: <TURN LED OFF>
+Consumer process received: 12 bytes: TURN LED OFF
+[Timestamp 1551502702 secs, 601 msecs, 601387356 nsecs] Received: <TURN LED ON>
+Consumer process received: 11 bytes: TURN LED ON
+[Timestamp 1551502702 secs, 601 msecs, 601389272 nsecs] Received: <Hall of Fame>
+Consumer process received: 12 bytes: Hall of Fame
+[Timestamp 1551502702 secs, 601 msecs, 601391151 nsecs] Received: <TURN LED OFF>
+Consumer process received: 12 bytes: TURN LED OFF
+[Timestamp 1551502702 secs, 601 msecs, 601392976 nsecs] Received: <TURN LED ON>
+Consumer process received: 11 bytes: TURN LED ON
+[Timestamp 1551502702 secs, 601 msecs, 601394803 nsecs] Received: <It Ain't Me>
+Consumer process received: 11 bytes: It Ain't Me
+[Timestamp 1551502702 secs, 601 msecs, 601396627 nsecs] Received: <It Ain't Me>
+Consumer process received: 11 bytes: It Ain't Me
+[Timestamp 1551502702 secs, 601 msecs, 601439218 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551502702 secs, 611 msecs, 611660063 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551502702 secs, 622 msecs, 622607238 nsecs] Sending: <TURN LED ON>
+[Timestamp 1551502702 secs, 632 msecs, 632639890 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551502702 secs, 643 msecs, 643231539 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551502702 secs, 654 msecs, 654123490 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551502702 secs, 698 msecs, 698919834 nsecs] Sending: <Girls Like You>
+[Timestamp 1551502702 secs, 709 msecs, 709031378 nsecs] Sending: <Counting Stars>
+[Timestamp 1551502702 secs, 719 msecs, 719138012 nsecs] Sending: <TURN LED OFF>
+[Timestamp 1551502702 secs, 729 msecs, 729610114 nsecs] Sending: <Hall of Fame>
+[Timestamp 1551502702 secs, 747 msecs, 747808960 nsecs] Received: <TURN LED ON>
+Producer process received: 11 bytes: TURN LED ON
+[Timestamp 1551502702 secs, 747 msecs, 747827778 nsecs] Received: <TURN LED ON>
+Producer process received: 11 bytes: TURN LED ON
+[Timestamp 1551502702 secs, 747 msecs, 747832051 nsecs] Received: <TURN LED ON>
+Producer process received: 11 bytes: TURN LED ON
+[Timestamp 1551502702 secs, 747 msecs, 747835579 nsecs] Received: <TURN LED OFF>
+Producer process received: 12 bytes: TURN LED OFF
+[Timestamp 1551502702 secs, 747 msecs, 747839432 nsecs] Received: <TURN LED OFF>
+Producer process received: 12 bytes: TURN LED OFF
+[Timestamp 1551502702 secs, 747 msecs, 747842845 nsecs] Received: <TURN LED OFF>
+Producer process received: 12 bytes: TURN LED OFF
+[Timestamp 1551502702 secs, 747 msecs, 747846594 nsecs] Received: <Girls Like You>
+Producer process received: 14 bytes: Girls Like You
+[Timestamp 1551502702 secs, 747 msecs, 747849995 nsecs] Received: <Counting Stars>
+Producer process received: 14 bytes: Counting Stars
+[Timestamp 1551502702 secs, 747 msecs, 747853396 nsecs] Received: <TURN LED OFF>
+Producer process received: 12 bytes: TURN LED OFF
+[Timestamp 1551502702 secs, 747 msecs, 747856806 nsecs] Received: <Hall of Fame>
+Producer process received: 12 bytes: Hall of Fame
