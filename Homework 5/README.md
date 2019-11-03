@@ -1,0 +1,9 @@
+The code has been written such that the LED’s timer handler is called at a frequency of 10 Hz. Each time the handler is called, one of the LED’s is toggled, such that 1 LED is toggled every 10 ms. This gives a period of 20 ms and a subsequent switching frequency of 5 Hz.
+
+Overview of code
+Main task creates four tasks, Temperature, LED, logger and Notify.
+Two timers are used for releasing the Temperature and LED tasks, at frequencies of 1000 and 100 milli seconds respectively. The timers do so by the use of binary semaphores. Each task has in it a while loop, inside which it waits on the semaphore to be released by its timer. Timer subsection A of timer 0 and timer 1 has been used for both the tasks. Timer is initialized, and main enters the scheduler.
+The logger task logs data sent via message queues from the other tasks. A global structure is declared, which contains fields for sensor data, an optional string, an unsigned int for sender task’s id, and a TickType variable for timestamp.
+The logger task waits in a while loop on xQueueReceive, and once it receives something, it checs the sender’s id and accordingly logs data to serial terminal.
+The temperature and LED tasks wait on semaphores to be released by their respective timers. Once the semaphore is released, they perform their functionalities, (be it reading data from the temperature sensor, or toggling the onboard LEDs), store their message/data in an instance of the global structure, and send the same via queue to the logger task. A mutex is used to perform synchronization of message queue’s sending action. The temperature task has an additional functionality, in that it notifies the alert task whenever the temperature crosses the given threshold.
+The alert task in turn, logs a message to the logger thread, saying threshold has been crossed.
